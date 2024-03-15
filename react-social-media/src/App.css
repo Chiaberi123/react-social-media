@@ -1,0 +1,102 @@
+/* App.css */
+
+/* Overall layout */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Forms */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-form,
+.login-form {
+  margin-bottom: 20px;
+}
+
+/* Input fields and buttons */
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Posts */
+.post {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.post-content {
+  margin-bottom: 10px;
+}
+
+.post-stats {
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+/* Comments */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.comment-username {
+  font-weight: bold;
+  margin-right: 5px;
+}
